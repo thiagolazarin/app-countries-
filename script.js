@@ -13,25 +13,27 @@ async function showCountry(){
 
         container.innerHTML += `
             <div class="box-pais">
-                <div class="img">
-                    <img id="imgCountry" src="${img}" alt="image country">
-                </div>
+                <div class="box-container">
+                    <div class="img">
+                        <img id="imgCountry" src="${img}" alt="image country">
+                    </div>
 
-                <div class="nome-pais">
-                    <h2 id="nameCountry">${name}</h2>
-                </div>
+                    <div class="nome-pais">
+                        <h2 id="nameCountry">${name}</h2>
+                    </div>
 
-                <div class="informations capital">
-                    <p>Capital</p>
-                    <h3 id="capitalCountry">${capital}</h3>
-                </div>
-                <div class="informations population">
-                    <p>Population</p>
-                    <h3 id="populationCountry">${population}</h3>
-                </div>
-                <div class="informations region">
-                    <p>Region</p>
-                    <h3 id="regionCountry">${region}</h3>
+                    <div class="informations capital">
+                        <p>Capital</p>
+                        <h3 id="capitalCountry">${capital}</h3>
+                    </div>
+                    <div class="informations population">
+                        <p>Population</p>
+                        <h3 id="populationCountry">${population}</h3>
+                    </div>
+                    <div class="informations region">
+                        <p>Region</p>
+                        <h3 id="regionCountry">${region}</h3>
+                    </div>
                 </div>
             </div>
         `
@@ -63,25 +65,27 @@ async function searchCountry(){
     
     container.innerHTML = `
         <div class="box-pais">
-            <div class="img">
-                <img id="imgCountry" src="${img}" alt="image country">
-            </div>
+            <div class="box-container">
+                <div class="img">
+                    <img id="imgCountry" src="${img}" alt="image country">
+                </div>
 
-            <div class="nome-pais">
-                <h2 id="nameCountry">${name}</h2>
-            </div>
+                <div class="nome-pais">
+                    <h2 id="nameCountry">${name}</h2>
+                </div>
 
-            <div class="informations capital">
-                <p>Capital</p>
-                <h3 id="capitalCountry">${capital}</h3>
-            </div>
-            <div class="informations population">
-                <p>Population</p>
-                <h3 id="populationCountry">${population}</h3>
-            </div>
-            <div class="informations region">
-                <p>Region</p>
-                <h3 id="regionCountry">${region}</h3>
+                <div class="informations capital">
+                    <p>Capital</p>
+                    <h3 id="capitalCountry">${capital}</h3>
+                </div>
+                <div class="informations population">
+                    <p>Population</p>
+                    <h3 id="populationCountry">${population}</h3>
+                </div>
+                <div class="informations region">
+                    <p>Region</p>
+                    <h3 id="regionCountry">${region}</h3>
+                </div>
             </div>
         </div>
     `

@@ -1,11 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+.body, html{
+    background-color: #59C9A5;
+}
+
 .header{
     text-align: center;
+    margin-top: 37px;
+}
+
+.header h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 55px;
+    background-image: linear-gradient(to bottom, #2D2D2A, #353831, #38423B);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    color: black;
 }
 
 .container{
@@ -15,7 +33,42 @@
 }
 
 .input-search{
-    margin-bottom: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+#country{
+    padding: 15px;
+    border-radius: 10px 0px 0px 10px;
+    width: 50%;
+    border: none;
+    outline: 0;
+}
+
+#btnSearch {
+	background-color:#fff9f9;
+	border-radius:0px 10px 10px 0px;
+    margin-left: -12px;
+    border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:13.5px;
+	font-weight:bold;
+	padding:10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+#btnSearch:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+#btnSearch:active {
+	position:relative;
+	top:1px;
 }
 
 .btn-back{
@@ -24,7 +77,6 @@
 
 .container-paises{
     width: 100%;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -32,8 +84,15 @@
 
 .box-pais{
     max-width: 300px;
-    border: 2px solid black;
-    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-bottom: 45px;
+    box-shadow: 0 10px 15px rgba(0,0,0,.1);
+    border-radius: 20px;
+    background-color: #B9E3C6;
+}
+
+.box-container{
+    padding: 20px;
 }
 
 .box-pais .img{
@@ -45,9 +104,17 @@
     height: 200px;
 }
 
+#nameCountry{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #23395B;
+}
+
 .informations{
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Inter', sans-serif;
 }
+
